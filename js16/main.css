@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#modalShade{
+    display: none;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.274);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#modalWindow{
+    display: none;
+    width: 80%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 500px;
+    background-color: #fff;
+}
+
+#modalUserName{
+    width: 100%;
+    background-color: lightgray;
+    text-align: center;
+    height: 70px;
+    line-height: 70px;
+
+}
+
+#titleList{
+    list-style: decimal;
+    font-size: 24px;
+    margin-left: 20px;
+    word-wrap: break-word;
+}
+
+.commDivStyle{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 350px;
+    height: 150px;
+    background: lightcoral;
+    padding: 20px;
+    z-index: 131231231;
+}
+.commDivStyle h3{
+    font-size: 15px;
+}
+.commDivStyle h5{
+    font-size: 12px;
+}
+.commDivStyle p{
+    font-size: 10px;
+ 
+}

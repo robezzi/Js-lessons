@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#ToDoTable{
+    width: 30%;
+    padding: 30px;
+    margin: 50px 10px;
+    border: 1px solid black;
+    align-items: center;
+}
+#ToDoTable td{
+    text-align: center;
+    padding: 20px;
+    border: 1px solid black;
+}
+#sortByTrue{
+    position: sticky;
+    top: 10px;
+    left:900px;
+}
+#sortByFalse{
+    position: sticky;
+    top: 10px;
+    left:1000px;
+}

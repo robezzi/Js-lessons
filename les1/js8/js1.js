@@ -1,0 +1,5 @@
+sumMoney = + prompt("Сколько денег")
+chocoPrice = + prompt("Сколько стоит шоколадка")
+chocoMuch = Math.trunc(sumMoney / chocoPrice)
+cashBack = sumMoney - (chocoPrice * chocoMuch)
+alert("Вы можете купить " + chocoMuch + " и ваша сдача " + cashBack)

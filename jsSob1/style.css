@@ -1,0 +1,134 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ /* 1 задание
+
+/* #shadowModal{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: none; 
+    background: rgba(0, 0, 0, 0.487);
+    width: 100%;
+    height: 100%;
+   
+}
+#modal{
+    font-size: 25px;
+    width: 500px;
+    height: 250px;
+    background: lightblue;
+    text-align: center;
+    line-height: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#modal button{
+    width: 150px;
+    height: 55px;
+    margin-top: 50px;
+} */
+
+ /* 3 задание  */
+ /* #pole{
+height: 100vh;
+overflow: hidden;
+background-image: url(pole.jpg);
+position: relative;
+}
+
+#ball{
+    width: 100px;
+    height: 100px;  
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 0.5s;
+
+} */
+
+ /* 4 задание */
+ /* #wrapper{
+    width: 30%;
+    height: 25%;
+    margin: 10% auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    background-color: bisque;
+}
+#round{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid rgb(89, 89, 89);
+    margin-right: 10px;
+}
+button{
+    width: 50px;
+    height: 50px;
+} */
+ /* 5 задание */
+ /* #ulSpisok{
+    background-color: bisque;
+    list-style-type: decimal;
+    list-style-position: inside;
+    padding: 15px;
+}
+#book{
+    padding-bottom: 5px;
+} */
+
+ /* 6 задание */
+ /* #botText{
+    width: 100px;
+    height: 50px;
+     position: absolute;
+     top:10px;
+}
+#topText{
+    width: 100px;
+    height: 50px;
+    margin: 50px 10px;
+}
+#toolTipElem{
+    height: 40px;
+    width: 80px;
+    background: purple;
+    position: absolute;
+    text-align: center;
+    line-height: 40px;
+} */
+ /* 7 задание */
+ /* .list{
+padding: 50px;
+background: beige;
+width: 350px;
+} */
+ /* 8 задание */
+ /* #textArea {
+     width: 500px;
+     height: 200px;
+     margin: 100px;
+     position: relative;
+     border: 1px solid black;
+     padding: 20px;
+ }
+
+ #butSpot {
+     position: absolute;
+     bottom: 3px;
+     right: 3px;
+     border: 10px solid transparent;
+     border-right: 10px solid gray;
+     border-bottom: 10px solid gray;
+    
+ } */

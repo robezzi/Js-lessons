@@ -1,0 +1,14 @@
+#leftSideBar{
+    border-right:2px solid black;
+    overflow: hidden;
+width: 30px;
+padding-left: 30px;
+}
+#leftSideBar li{
+    width: 200px;
+    font-size: 20px;
+    padding: 10px 0px;
+}
+.container-fluid{
+    padding-left: 30px !important;
+}

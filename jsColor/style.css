@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    background: bisque;
+}
+#formInp{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+#formInp select,input,button{
+    width: 300px;
+    margin: 5px 0px;
+}
+button{
+    height: 35px;
+    background-color: rgb(22, 115, 214);
+}
+
+.newWrap{
+    width: 250px;
+    height: 150px;
+    display: inline-block;
+    
+    margin:10px 10px;
+}
+.newInnerWrap{
+    background: #d4d1d170;
+    margin: 35px;
+    padding: 10px 20px;
+   
+
+}
+.newColorType{
+    margin: 10px 0px;
+}

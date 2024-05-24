@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#modalWindow{
+    display: none;
+    width: 60%;
+    height: 700px;
+    background: rgb(255, 255, 255);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    overflow: hidden;
+}
+#modalShade{
+    display: none;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.397);
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+#modalUserName{
+width: 100%;
+background: lightgrey;
+text-align: center;
+height: 70px;
+line-height: 70px;
+
+
+
+}
+#titleList{
+list-style: decimal;
+font-size: 24px;
+margin-left: 20px;
+
+}

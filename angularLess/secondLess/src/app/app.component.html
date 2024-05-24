@@ -1,0 +1,11 @@
+<div class="max-w-2xl container pt-5 m-auto">
+  <h1 class="font-bold text-center mb-3">App component</h1>
+  <!-- <app-my-list [product]="products[0]"></app-my-list> -->
+    <app-my-list 
+    *ngFor="let prod of products"
+    [product]="prod"
+    ></app-my-list>
+  <div class="cards">
+
+  </div>
+</div>
