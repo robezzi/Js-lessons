@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: lightgoldenrodyellow;">
+    <h1>Home Page</h1>
+    <h2 id="out"></h2>
+    <script>
+       
+        let str=document.cookie
+        let arr=str.split("; ")
+        let cookieObj={}
+        for(let i=0;i<arr.length;i++){
+            let c=arr[i].split("=")
+            cookieObj[c[0]]=c[1]
+        }
+ out.innerText=cookieObj["name"]
+        </script>
+</body>
+</html>
